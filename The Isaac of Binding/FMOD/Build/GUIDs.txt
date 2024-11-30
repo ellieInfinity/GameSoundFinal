@@ -1,0 +1,11 @@
+{f2e4296d-4f7a-4291-835b-29a3057e51ca} bank:/Master
+{6af909b9-3e01-0ed3-0512-a35df48d5752} bank:/Master.strings
+{5389f00d-6e48-4bf2-9be2-9c468acbd5c6} bank:/Music
+{b0115360-b476-4af5-ae76-7d563a2ae92e} bank:/SFX
+{e57d8b9e-330f-4864-b538-cdc70488cc13} bus:/
+{8a10bf0d-ff52-4ca5-9375-01052146aab2} bus:/Reverb
+{075ac09d-cfd2-4ebf-a67d-f1eeb308d8a3} event:/Song
+{9e65972c-14de-417f-a9b3-37dcc52e10ca} event:/enemy_die
+{5f9a8986-c591-412c-bf87-d01bc78b899b} event:/foot
+{40176add-f9d8-4610-bb08-dc6b601cbfd0} event:/tear_fire
+{22f22415-e4d0-4bfd-8ee7-3858a2a8ea49} parameter:/Combat

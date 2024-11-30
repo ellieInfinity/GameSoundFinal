@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{215d49c6-4a20-476c-bacc-369ef93f5bba}">
+		<property name="assetPath">
+			<value>SFX/Foot/foot_7.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.37427083333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{222fb987-816c-47d3-936b-0d254604f1a2}</destination>
+		</relationship>
+	</object>
+</objects>

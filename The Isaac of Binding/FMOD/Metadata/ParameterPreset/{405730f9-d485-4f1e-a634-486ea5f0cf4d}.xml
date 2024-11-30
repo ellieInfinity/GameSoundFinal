@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{405730f9-d485-4f1e-a634-486ea5f0cf4d}">
+		<property name="name">
+			<value>Combat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{86674bc1-5730-4873-9b85-19c07c6d6041}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{22f22415-e4d0-4bfd-8ee7-3858a2a8ea49}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{22f22415-e4d0-4bfd-8ee7-3858a2a8ea49}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
