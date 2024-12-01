@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 129186223}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1122,9 +1122,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.001345895
     width: 1
-    height: 1
+    height: 0.9983745
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -3117,9 +3117,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.001345895
     width: 1
-    height: 1
+    height: 0.9983745
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34

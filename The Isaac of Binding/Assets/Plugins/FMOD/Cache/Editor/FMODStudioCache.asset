@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638681689440481034
+  lastModified: 638686751810704941
   FileSizes:
   - Name: Desktop
-    Value: 1022
+    Value: 1154
   Exists: 1
 --- !u!114 &-3818588035915231942
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638681689441273514
+  lastModified: 638686753699577330
   FileSizes:
   - Name: Desktop
-    Value: 75936
+    Value: 102272
   Exists: 1
 --- !u!114 &-2878000043037864085
 MonoBehaviour:
@@ -55,7 +55,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638681689440281897
+  lastModified: 638686751810694902
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -134,13 +134,43 @@ MonoBehaviour:
   - {fileID: 1454440285781225828}
   - {fileID: 817267033935479413}
   - {fileID: 908494304065422770}
+  - {fileID: 206749783170996344}
+  - {fileID: 3333461756591504705}
+  - {fileID: 2544097101868944371}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2878000043037864085}
   StringsBanks:
   - {fileID: -4885727634129420913}
-  cacheTime: 638681689441273514
+  cacheTime: 638686753699577330
   cacheVersion: 131620
+--- !u!114 &206749783170996344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/woosh
+  m_EditorClassIdentifier: 
+  Path: event:/woosh
+  Guid:
+    Data1: -1160344887
+    Data2: 1272698155
+    Data3: -1431894137
+    Data4: 1629968919
+  Banks:
+  - {fileID: -3818588035915231942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &817267033935479413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +252,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 843
+--- !u!114 &2544097101868944371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/enemy_hurt
+  m_EditorClassIdentifier: 
+  Path: event:/enemy_hurt
+  Guid:
+    Data1: 67182203
+    Data2: 1228103731
+    Data3: 758163883
+    Data4: 610868132
+  Banks:
+  - {fileID: -3818588035915231942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3333461756591504705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/wallHit
+  m_EditorClassIdentifier: 
+  Path: event:/wallHit
+  Guid:
+    Data1: 318409386
+    Data2: 1193125334
+    Data3: -24075093
+    Data4: 1106818153
+  Banks:
+  - {fileID: -3818588035915231942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8301936504427790087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +321,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638681689441099792
+  lastModified: 638686690943948305
   FileSizes:
   - Name: Desktop
     Value: 7832064

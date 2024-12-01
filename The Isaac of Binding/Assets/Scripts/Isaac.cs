@@ -25,6 +25,8 @@ public class Isaac : MonoBehaviour
     private bool _scrollingRooms;
     
     private FMOD.Studio.EventInstance _footSound;
+    private FMOD.Studio.EventInstance _woosh;
+    private FMOD.Studio.EventInstance _wallHit;
 
     private void Awake()
     {
@@ -34,11 +36,21 @@ public class Isaac : MonoBehaviour
         _anim = GetComponent<Animator>();
         
         _footSound = FMODUnity.RuntimeManager.CreateInstance("event:/foot");
+        _woosh = FMODUnity.RuntimeManager.CreateInstance("event:/woosh");
+        _wallHit = FMODUnity.RuntimeManager.CreateInstance("event:/wallHit");
     }
 
     public void PlayFootSound()
     {
         _footSound.start();
+    }
+    public void PlayWoosh()
+    {
+        _woosh.start();
+    }
+    public void PlayWallHit()
+    {
+        _wallHit.start();
     }
 
     private void Update()
@@ -281,7 +293,24 @@ public class Isaac : MonoBehaviour
         if (other.CompareTag("Door"))
         {
             _vel = Vector3.zero;
+            PlayWoosh();
             StartCoroutine(RoomTransition(other.GetComponent<DoorController>().LinkedDoor));
+        }
+        if (other.gameObject.tag.Equals("Wall"))
+        {
+            Debug.Log("aa");
+            PlayWallHit();
+            Debug.Log("a");
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Wall"))
+        {
+            Debug.Log("aa");
+            PlayWallHit();
+            Debug.Log("a");
         }
     }
 }

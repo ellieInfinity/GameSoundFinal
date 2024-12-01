@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{978e6ef5-7a27-477c-832b-5aa355e650ad}">
+		<property name="assetPath">
+			<value>SFX/Whoosh.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.11314583333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{222fb987-816c-47d3-936b-0d254604f1a2}</destination>
+		</relationship>
+	</object>
+</objects>
