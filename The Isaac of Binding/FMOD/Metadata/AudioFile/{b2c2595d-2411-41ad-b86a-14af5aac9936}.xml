@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b2c2595d-2411-41ad-b86a-14af5aac9936}">
+		<property name="assetPath">
+			<value>SFX/Foot/stickbreak1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.17095833333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{222fb987-816c-47d3-936b-0d254604f1a2}</destination>
+		</relationship>
+	</object>
+</objects>

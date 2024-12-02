@@ -27,6 +27,7 @@ public class Isaac : MonoBehaviour
     private FMOD.Studio.EventInstance _footSound;
     private FMOD.Studio.EventInstance _woosh;
     private FMOD.Studio.EventInstance _wallHit;
+    private FMOD.Studio.EventInstance _spawnTear;
 
     private void Awake()
     {
@@ -38,6 +39,7 @@ public class Isaac : MonoBehaviour
         _footSound = FMODUnity.RuntimeManager.CreateInstance("event:/foot");
         _woosh = FMODUnity.RuntimeManager.CreateInstance("event:/woosh");
         _wallHit = FMODUnity.RuntimeManager.CreateInstance("event:/wallHit");
+        _spawnTear = FMODUnity.RuntimeManager.CreateInstance("event:/tear_spawn");
     }
 
     public void PlayFootSound()
@@ -202,7 +204,8 @@ public class Isaac : MonoBehaviour
                 _fireTimer = _fireRate;
                 Vector2 dir = _currentFireDir;
                 if (dir.y != 0) dir.x = 0;
-                
+
+                _spawnTear.start();
                 Bullet obj = Instantiate(_bulletPrefab).GetComponent<Bullet>();
                 Vector3 pos = transform.position;
                 int offset = _leftEye ? -3 : 3;
