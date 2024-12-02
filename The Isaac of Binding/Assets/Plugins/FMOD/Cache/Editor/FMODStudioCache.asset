@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638686777832283869
+  lastModified: 638686809464542763
   FileSizes:
   - Name: Desktop
-    Value: 1202
+    Value: 1246
   Exists: 1
 --- !u!114 &-3818588035915231942
 MonoBehaviour:
@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638686777832639596
+  lastModified: 638686809465680021
   FileSizes:
   - Name: Desktop
-    Value: 112544
+    Value: 113952
   Exists: 1
 --- !u!114 &-2878000043037864085
 MonoBehaviour:
@@ -82,7 +82,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638686777832273922
+  lastModified: 638686809464532766
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -139,6 +139,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-433723922516572720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/tear_fire3D
+  m_EditorClassIdentifier: 
+  Path: event:/tear_fire3D
+  Guid:
+    Data1: -1227463765
+    Data2: 1311110077
+    Data3: 1396308631
+    Data4: 807559905
+  Banks:
+  - {fileID: -3818588035915231942}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,12 +192,13 @@ MonoBehaviour:
   - {fileID: 3333461756591504705}
   - {fileID: 2544097101868944371}
   - {fileID: -7370414659632897293}
+  - {fileID: -433723922516572720}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2878000043037864085}
   StringsBanks:
   - {fileID: -4885727634129420913}
-  cacheTime: 638686777832639596
+  cacheTime: 638686809465680021
   cacheVersion: 131620
 --- !u!114 &206749783170996344
 MonoBehaviour:

@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
 
     private void OnDestroy()
     {
-        _dieSound.start();
+        //_dieSound.start();
         
         GameObject obj = Instantiate(_particle);
         obj.transform.position = transform.GetChild(0).position;
